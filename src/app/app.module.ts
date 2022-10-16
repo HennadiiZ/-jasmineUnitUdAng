@@ -23,3 +23,7 @@ export class AppModule {}
 // 3. What is Jasmine / Karma?
     // ng test
     // http://localhost:9876/?id=92756591
+
+
+// Section 2: Fundamentals & best practices
+  // 4. Your First Test Suite
