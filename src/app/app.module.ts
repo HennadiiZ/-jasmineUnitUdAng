@@ -15,4 +15,11 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
+
+
+
+
+// 3. What is Jasmine / Karma?
+    // ng test
+    // http://localhost:9876/?id=92756591
