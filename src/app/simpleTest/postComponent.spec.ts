@@ -36,4 +36,10 @@ describe('post Component', () => {
     postcomponent!.disLike();
     expect(postcomponent!.totalLikes).toBe(2);
   });
+  it('should decrease likes only if the totallikes is not 0', () => {
+    postcomponent!.totalLikes = 0;
+    postcomponent!.disLike();
+    // expect(postcomponent!.totalLikes).toBe(0);
+    expect(postcomponent!.totalLikes).not.toBe(-1);
+  });
 });

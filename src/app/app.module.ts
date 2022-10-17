@@ -29,3 +29,7 @@ export class AppModule {}
   // 4. Your First Test Suite
   // 5. Arrange Act Assert
   // 6. SetUp and TearDown
+
+  // 7. Code Coverage Vs Test Coverage
+    // ng test --code-coverage
+    // http://localhost:9877/?id=94451240
