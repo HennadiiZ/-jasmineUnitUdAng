@@ -33,3 +33,4 @@ export class AppModule {}
   // 7. Code Coverage Vs Test Coverage
     // ng test --code-coverage
     // http://localhost:9877/?id=94451240
+  // 8. No Fragile Tests
