@@ -1,5 +1,6 @@
 export class postComponent {
-  totalLikes: number = 0;
+  // totalLikes: number = 0;
+  totalLikes!: number;
 
   like():void {
     this.totalLikes++;

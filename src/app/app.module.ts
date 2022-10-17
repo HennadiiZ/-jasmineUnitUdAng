@@ -28,3 +28,4 @@ export class AppModule {}
 // Section 2: Fundamentals & best practices
   // 4. Your First Test Suite
   // 5. Arrange Act Assert
+  // 6. SetUp and TearDown
