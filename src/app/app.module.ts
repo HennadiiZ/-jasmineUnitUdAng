@@ -1,18 +1,22 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewPostComponent } from './simpleTest/new-post/new-post.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewPostComponent
+    NewPostComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   // exports: [
   //   NewPostComponent
@@ -40,3 +44,7 @@ export class AppModule {}
     // http://localhost:9877/?id=94451240
   // 8. No Fragile Tests
   // 9. Unit Testing Vs Integration Testing
+
+
+// Section 3: Advanced Testing with Jasmine
+   // 10. Reactive Forms – Part 1
