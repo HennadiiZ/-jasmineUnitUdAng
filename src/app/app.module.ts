@@ -3,15 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NewPostComponent } from './simpleTest/new-post/new-post.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NewPostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
+  // exports: [
+  //   NewPostComponent
+  // ],
   providers: [],
   bootstrap: [AppComponent]
 })
@@ -34,3 +39,4 @@ export class AppModule {}
     // ng test --code-coverage
     // http://localhost:9877/?id=94451240
   // 8. No Fragile Tests
+  // 9. Unit Testing Vs Integration Testing
